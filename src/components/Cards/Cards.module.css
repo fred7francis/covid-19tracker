@@ -1,0 +1,32 @@
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    width: 100%;
+  }
+  .confirmed {
+    border-bottom: 10px solid rgba(255, 193, 7, 0.5);
+  }
+
+  .deaths {
+    border-bottom: 10px solid rgba(90, 98, 104, 0.5);
+  }
+  
+  .recovered{
+    border-bottom: 10px solid rgba(33, 136, 56, 0.5);
+  }
+  
+  .critical{
+    border-bottom: 10px solid rgba(200, 35, 51, 0.5);
+  }
+  .card {
+      width: 100%;
+    margin: 0 2% !important;
+  }
+  @media only screen and (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
+  }
